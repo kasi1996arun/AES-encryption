@@ -1,0 +1,346 @@
+C:\Users\IRON MAN\Desktop>java aes
+Enter the Key:
+0123456789abcdeffedcba9876543210
+Key Matrix:
+01      23      45      67
+89      ab      cd      ef
+fe      dc      ba      98
+76      54      32      10
+W[0]:01234567
+W[1]:89abcdef
+W[2]:fedcba98
+W[3]:76543210
+Rotational word:54321076
+Subword:2023ca38
+w[4]:20008f5f
+w[5]:a9ab42b0
+w[6]:5777f828
+w[7]:2123ca38
+Rotational word:23ca3821
+Subword:267407fd
+w[8]:047488a2
+w[9]:addfca12
+w[10]:faa8323a
+w[11]:db8bf802
+Rotational word:8bf802db
+Subword:3d4177b9
+w[12]:3d35ff1b
+w[13]:90ea3509
+w[14]:6a420733
+w[15]:b1c9ff31
+Rotational word:c9ff31b1
+Subword:dd16c7c8
+w[16]:e82338d3
+w[17]:78c90dda
+w[18]:128b0ae9
+w[19]:a342f5d8
+Rotational word:42f5d8a3
+Subword:2ce6610a
+w[20]:d4c559d9
+w[21]:ac0c5403
+w[22]:be875eea
+w[23]:1dc5ab32
+Rotational word:c5ab321d
+Subword:a66223a4
+w[24]:52a77a7d
+w[25]:feab2e7e
+w[26]:402c7094
+w[27]:5de9dba6
+Rotational word:e9dba65d
+Subword:1eb9244c
+w[28]:0c1e5e31
+w[29]:f2b5704f
+w[30]:b29900db
+w[31]:ef70db7d
+Rotational word:70db7def
+Subword:51b9ffdf
+w[32]:dda7a1ee
+w[33]:2f12d1a1
+w[34]:9d8bd17a
+w[35]:72fb0a07
+Rotational word:fb0a0772
+Subword:0f67c540
+w[36]:c9c064ae
+w[37]:e6d2b50f
+w[38]:7b596475
+w[39]:09a26e72
+Rotational word:a26e7209
+Subword:3a9f4001
+w[40]:c55f24af
+w[41]:238d91a0
+w[42]:58d4f5d5
+w[43]:51769ba7
+Round key:
+0f 47 0c af
+15 d9 b7 7f
+71 e8 ad 67
+c9 59 d6 98
+Enter the plain Text:
+0123456789abcdeffedcba9876543210
+Start of Round:
+01 89 fe 76
+23 ab dc 54
+45 cd ba 32
+67 ef 98 10
+*******************Round:1********************
+Start for round:
+0e ce f2 d9
+36 72 6b 2b
+34 25 17 55
+ae b6 4e 88
+Sub bytes Round:
+ab 8b 89 35
+05 40 7f f1
+18 3f f0 fc
+e4 4e 2f c4
+Shift Rows:
+ab 8b 89 35
+40 7f f1 05
+f0 fc 18 3f
+c4 e4 4e 2f
+Mix Columns:
+b9 94 57 75
+e4 8e 16 51
+47 20 9a 3f
+c5 d6 f5 3b
+Round key:
+dc 9b 97 38
+90 49 fe 81
+37 df 72 15
+b0 e9 3f a7
+*******************Round:2********************
+Start for round:
+65 0f c0 4d
+74 c7 e8 d0
+70 ff e8 2a
+75 3f ca 9c
+Sub bytes Round:
+4d 76 ba e3
+92 c6 9b 70
+51 16 9b e5
+9d 75 74 de
+Shift Rows:
+4d 76 ba e3
+c6 9b 70 92
+9b e5 51 16
+de 9d 75 74
+Mix Columns:
+8e 22 db 12
+b2 f2 dc 92
+df 80 f7 c1
+2d c5 1e 52
+Round key:
+d2 49 de e6
+c9 80 7e ff
+6b b4 c6 d3
+b7 5e 61 c6
+*******************Round:3********************
+Start for round:
+5c 6b 05 f4
+7b 72 a2 6d
+b4 34 31 12
+9a 9b 7f 94
+Sub bytes Round:
+4a 7f 6b bf
+21 40 3a 3c
+8d 18 c7 c9
+b8 14 d2 22
+Shift Rows:
+4a 7f 6b bf
+40 3a 3c 21
+c7 c9 8d 18
+22 b8 14 d2
+Mix Columns:
+b1 c1 0b cc
+ba f3 8b 07
+f9 1f 6a c3
+1d 19 24 5c
+Round key:
+c0 89 57 b1
+af 2f 51 ae
+df 6b ad 7e
+39 67 06 c0
+*******************Round:4********************
+Start for round:
+71 48 5c 7d
+15 dc da a9
+26 74 c7 bd
+24 7e 22 9c
+Sub bytes Round:
+a3 52 4a ff
+59 86 57 d3
+f7 92 c6 7a
+36 f3 93 de
+Shift Rows:
+a3 52 4a ff
+86 57 d3 59
+c6 7a f7 92
+de 36 f3 93
+Mix Columns:
+d4 11 fe 0f
+3b 44 06 73
+cb ab 62 37
+19 b7 07 ec
+Round key:
+2c a5 f2 43
+5c 73 22 8c
+65 0e a3 dd
+f1 96 90 50
+*******************Round:5********************
+Start for round:
+f8 b4 0c 4c
+67 37 24 ff
+ae a5 c1 ea
+e8 21 97 bc
+Sub bytes Round:
+41 8d fe 29
+85 9a 36 16
+e4 06 78 87
+9b fd 88 65
+Shift Rows:
+41 8d fe 29
+9a 36 16 85
+78 87 e4 06
+65 9b fd 88
+Mix Columns:
+2a 47 c4 48
+83 e8 18 ba
+84 18 27 23
+eb 10 0a f3
+Round key:
+58 fd 0f 4c
+9d ee cc 40
+36 38 9b 46
+eb 7d ed bd
+*******************Round:6********************
+Start for round:
+72 ba cb 04
+1e 06 d4 fa
+b2 20 bc 65
+00 6d e7 4e
+Sub bytes Round:
+40 f4 1f f2
+72 6f 48 2d
+37 b7 65 4d
+63 3c 94 2f
+Shift Rows:
+40 f4 1f f2
+6f 48 2d 72
+65 4d 37 b7
+2f 63 3c 94
+Mix Columns:
+7b 05 42 4a
+1e d0 20 40
+94 83 18 52
+94 c4 43 fb
+Round key:
+71 8c 83 cf
+c7 29 e5 a5
+4c 74 ef a9
+c2 bf 52 ef
+*******************Round:7********************
+Start for round:
+0a 89 c1 85
+d9 f9 c5 e5
+d8 f7 f7 fb
+56 7b 11 14
+Sub bytes Round:
+67 a7 78 97
+35 99 a6 d9
+61 68 68 0f
+b1 21 82 fa
+Shift Rows:
+67 a7 78 97
+99 a6 d9 35
+68 0f 61 68
+fa b1 21 82
+Mix Columns:
+ec 1a c0 80
+0c 50 53 c7
+3b d7 00 ef
+b7 22 72 e0
+Round key:
+37 bb 38 f7
+14 3d d8 7d
+93 e7 08 a1
+48 f7 a5 4a
+*******************Round:8********************
+Start for round:
+db a1 f8 77
+18 6d 8b ba
+a8 30 08 4e
+ff d5 d7 aa
+Sub bytes Round:
+b9 32 41 f5
+ad 3c 3d f4
+c2 04 30 2f
+16 03 0e ac
+Shift Rows:
+b9 32 41 f5
+3c 3d f4 ad
+30 2f c2 04
+ac 16 03 0e
+Mix Columns:
+b1 1a 44 17
+3d 2f ec b6
+0a 6b 2f 42
+9f 68 f3 b1
+Round key:
+48 f3 cb 3c
+26 1b c3 be
+45 a2 aa 0b
+20 d7 72 38
+*******************Round:9********************
+Start for round:
+f9 e9 8f 2b
+1b 34 2f 08
+4f c9 85 49
+bf bf 81 89
+Sub bytes Round:
+99 1e 73 f1
+af 18 15 30
+84 dd 97 3b
+08 08 0c a7
+Shift Rows:
+99 1e 73 f1
+18 15 30 af
+97 3b 84 dd
+a7 08 08 0c
+Mix Columns:
+31 30 3a c2
+ac 71 8c c4
+46 65 48 eb
+6a 1c 31 62
+Round key:
+fd 0e c5 f9
+0d 16 d5 6b
+42 e0 4a 41
+cb 1c 6e 56
+*******************Round:10********************
+Start for round:
+cc 3e ff 3b
+a1 67 59 af
+04 85 02 aa
+a1 00 5f 34
+Sub bytes Round:
+4b b2 16 e2
+32 85 cb 79
+f2 97 77 ac
+32 63 cf 18
+Shift Rows:
+4b b2 16 e2
+85 cb 79 32
+77 ac f2 97
+18 32 63 cf
+Mix Columns:
+6d a7 36 d1
+db e2 8a eb
+08 6c 35 af
+1f ce 77 1d
+Round key:
+b4 ba 7f 86
+8e 98 4d 26
+f3 13 59 18
+52 4e 20 76
+
+C:\Users\IRON MAN\Desktop>
